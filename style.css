@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+  }
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: inline-block;
+    margin: 15px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: purple;
+    transition: 0.5s;
+}
+.green:hover{
+    transform: rotate(360deg);
+
+}
+
+input{
+    background-color: white;
+}
+
+input:focus{
+    background-color: pink;
+}
+.block{
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+}
+.block:last-of-type{
+    background-color: red;
+}
+.block:first-of-type{
+    background-color: yellow;
+}
+.block:nth-child(3){
+    background-color: black;
+}
+
